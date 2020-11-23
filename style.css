@@ -138,16 +138,118 @@ main {
 
 /* About us block */
 
-.about__container p {
+.about__container h1 {
     margin-top: 57px;
     margin-bottom: 10px;
     text-align: center;
+    font-family: "OpenSans Bold";
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 2.31px;
+    line-height: 24.51px;
+    color: #48555B;
 }
 
 .line {
     width: 50px;
-    height: 10px;
+    height: 2px;
     background-color: #00A4E5;
     position: absolute;
-    left: 48%;
+    left: 48.5%;
+    margin-bottom: 70px;
+}
+
+.about__text {
+    margin-top: 70px;
+    display: grid
+    grid-template-columns: 40% 40%;
+    grid-column-gap: 10%;
+}
+
+.about__text__first h3 {
+    font-family: "OpenSans Bold";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27.24px;
+    width: 405px;
+    color: #48555B;
+    letter-spacing: 0.19px;
+}
+
+.about__text__first h5 {
+    margin-top: 30px;
+    font-family: "OpenSans Regular";
+    font-size: 13px;
+    font-weight: 400;
+    font-size: normal;
+    line-height: 23px;
+    letter-spacing: 0.19px;
+    color: #48555B;
+}
+
+.blue {
+    color: #16ACE8;
+}
+
+.about__text__img {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 10%;
+}
+
+.first__img {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 140px;
+    height: 224px;
+    background: url(img/Bitmap.png) no-repeat;
+}
+
+.first__img p {
+    font-family: "OpenSans Bold";
+    font-size: 24px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 29px;
+    letter-spacing: 0.19px;
+    color: #ffffff;
+}
+
+.second__img {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 140px;
+    height: 224px;
+    background: url(img/Bitmap_2.png) no-repeat;
+}
+
+.second__img p {
+    font-family: "OpenSans Bold";
+    font-size: 24px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 29px;
+    letter-spacing: 0.19px;
+    color: #ffffff;
+}
+
+.third__img {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 140px;
+    height: 224px;
+    background: url(img/Bitmap_3.png) no-repeat;
+}
+
+.third__img p {
+    font-family: "OpenSans Bold";
+    font-size: 24px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 29px;
+    letter-spacing: 0.19px;
+    color: #ffffff;
 }
