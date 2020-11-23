@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "BebasNeue Regular";
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: "BebasNeue Bold";
+    src: url(fonts/BebasNeue-Bold.ttf);
+}
+@font-face {
+    font-family: "BebasNeue Thin";
+    src: url(fonts/BebasNeue-Thin.ttf);
+}
+@font-face {
+    font-family: "BebasNeue Light";
+    src: url(fonts/BebasNeue-Light.ttf);
+}
+@font-face {
+    font-family: "OpenSans Light";
+    src: url(fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: "OpenSans Regular";
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: "OpenSans Bold";
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Preview block */
+
+.preview__container {
+    max-width: 1438px;
+    height: 769px;
+    background: url(img/bg.jpg) no-repeat;
+    background-position-x: center;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.preview__container p {
+    font-size: 1.5em;
+    padding-top: 41px;
+    padding-bottom: 317px;
+}
+
+.preview__container h1 {
+    font-size: 60px;
+    letter-spacing: 5.71px;
+    line-height: 70px;
+    font-family: "BebasNeue Regular";
+    /* margin-bottom: 21px; */
+}
+
+.preview__container h4 {
+    font-family: "OpenSans Light";
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;
+    margin-bottom: 221px;
+}
+
+.preview__container a {
+    font-family: "OpenSans Light";
+    letter-spacing: 3.7px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 14.98px;
+    color: #ffffff;
+}
+
+/* Header */
+
+header {
+    height: 65px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.header__container {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 24px;
+}
+
+.header__container nav ul{
+    display: flex;
+    margin-top: 25px;
+}
+
+.header__container li:not(:last-child) {
+    margin-right: 48px;
+}
+
+.header__container a {
+    font-family: "OpenSans Regular";
+    font-size: 12px;
+    font-style: normal;
+    line-height: 16.34px;
+    letter-spacing: 1.09px;
+    font-weight: 600;
+    color: #48555B;
+    transition: all.6s ease;
+}
+
+.header__container a:hover {
+    color: #00A4E5;
+    transition: all.6s ease;
+}
+
+/* main */
+
+main {
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* About us block */
+
+.about__container p {
+    margin-top: 57px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.line {
+    width: 50px;
+    height: 10px;
+    background-color: #00A4E5;
+    position: absolute;
+    left: 48%;
+}
